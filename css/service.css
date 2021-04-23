@@ -38,11 +38,11 @@ body{
   padding-left: 6.2%;
   margin-top: -145px;
 }
-.paragraph {
-position: absolute;
-width: 50%;
-padding-left: 5%;
-margin-top: 6%;
+.paragraph {   
+   position: absolute;
+  width: 50%;
+  padding-left: 6%;
+  margin-top: -35px;
 }
 .grow {
   font-size: 28px;
@@ -185,6 +185,17 @@ margin-top: 6%;
 ol,
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+ul li,
+ol li {
+  font-size: 17px;
+  line-height: 24px;
 }
 
 .logo {
@@ -192,12 +203,20 @@ ul {
   align-items: center;
 }
 
+.logo p {
+  width: 100%;
+  padding-left: 30px;
+}
+
 .logo-img {
   float: left;
 }
 
 .logo ul {
-  width: 100%;
+  width: 40%;
+  min-width: 250px;
+  max-width: 250px;
+  border-right:solid 2px white
 }
 
 .logo ul li {
@@ -268,6 +287,11 @@ hr {
 }
 .socialmedia {
   float: right;
+}
+
+.header {
+  margin: 0 2%;
+  padding-top: 2%;
 }
 
 .main {
