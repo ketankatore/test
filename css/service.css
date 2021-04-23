@@ -22,6 +22,7 @@ body{
   padding: 40px 20px;
 }
 .container1 {
+  width: 100%;
   background-color: #fff7f0;
 }
 
@@ -30,9 +31,10 @@ body{
   float: left;
   padding: 0.5%;
   font-family: "Roboto-Regular";
+  color: #c2d6db;
 }
 .img11 {
-  width: 101.2%;
+  width: 95.9%;
   padding-left: 5%;
   margin-top: -145px;
 }
@@ -48,37 +50,46 @@ margin-top: 6%;
 }
 .grow1 {
   font-size: 13pt;
+  color: #83a9b4;
 }
 
 .grow1 span {
-  color: lightblue;
+  color: #90b8c0;
 }
 
 .services {
   padding: 2% 0 !important;
-  display: flex;
   margin: 1.5px;
+  width: 99%;
   background-color: #fff7f0;
+}
+
+.box-container{
+  float: left;
+ width: 12.8%;
+}
+.box-container:nth-child(1),
+.box-container:nth-child(9){
+  width: 5%;
 }
 .div1 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 10px;
-  padding: 15px;
+  padding: 15px 2%;
   background-color: white;
   border-radius: 10px;
-  width: 12%;
+  width: 85%;
   text-align: center;
-  color: #a9d010;
+  color: #c77329;
 }
 
 .active {
   color: white;
- background-color: #a9d010; 
+ background-color: #c77329; 
 }
 
 .hover{
   color: black;
-  border :2px solid #a9d010
+  border :2px solid #c77329
 }
 
 .div1 p {
@@ -92,16 +103,18 @@ margin-top: 6%;
 }
 
 .div {
-  padding-top: 21px;
+  padding-top: 15px;
 }
 .protect {
   text-align: center;
+  display: inline-block;
+  margin: 1% 6%;
 }
 .protect1 {
   font-size: 25pt;
   margin-bottom: 0;
   font-weight: bold;
-  color: #333c56;
+  color: #041e54;
 }
 .protect2 {
   font-size: 25pt;
@@ -118,6 +131,7 @@ margin-top: 6%;
 
 .success {
   display: inline-flex;
+  width: 100%;
   margin-top: 30px;
   column-count: 3;
 }
@@ -128,17 +142,18 @@ margin-top: 6%;
 
 .succ img{
   max-width: 340px;
+  width: 100%;
 }
 
 .identity {
   text-align: center;
-  font-size: 60pt;
+  font-size: 55pt;
   margin-bottom: 0;
   color: #8080808a;
 }
 .dia {
   text-align: center;
-  font-size: 30pt;
+  font-size: 29pt;
 }
 
 .diagram1 {
@@ -192,20 +207,21 @@ ul {
 }
 
 .logo ul li:nth-child(2){
-  color: #ff5722;
+  color: #c77329;
 }
 .rectangleimg {
   height: 40px;
 }
 
 .rectangleimg2 {
-  height: 120%;
+  height: 300px;
+  width: 105%;
   float: right;
 }
 
 .img-box{
   height: 250px;
-  width: 68%;
+  width: 65%;
   float: right;
   margin-right: -12.5%;
   margin-top: -185px;
@@ -251,7 +267,7 @@ hr {
   column-count: 2;
 }
 .socialmedia {
-  padding-left: 270px;
+  float: right;
 }
 
 .main {
@@ -273,6 +289,7 @@ hr {
 .line1 {
   margin-left: -13%;
   height: 40px;
+  width: 65%;
 }
 
 .twodiv {
