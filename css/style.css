@@ -243,6 +243,7 @@ ol li {
   /* border-top:5px solid darkgray; */
   background-image: url("../img/colour.png");
   padding-bottom: 150px;
+  background-size: cover;
 }
 
 .section3 {
